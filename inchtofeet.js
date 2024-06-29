@@ -1,12 +1,43 @@
-function inchis (inch){
-let feet = inch/12;
+// // function inchis (inch){
+// // let feet = inch/12;
 
-return feet;
+// // return feet;
+// // }
+
+// // inchis(100)
+// // inchis(43)
+// // inchis(6633)
+// // inchis(536)
+// // inchis(6463)
+// // inchis(100)
+
+
+//  inches to feet 
+
+function inchestofet (inches){
+    let fet = inches / 12 ;
+    return fet ;
 }
 
-inchis(100)
-inchis(43)
-inchis(6633)
-inchis(536)
-inchis(6463)
-inchis(100)
+let inchess = 120;
+let result = inchestofet(inchess)
+console.log(result);
+
+
+
+let ammainches = 72;
+ result = inchestofet(ammainches);
+ console.log(result);
+
+// mile to kilomiter 
+function miletokilomiter (mile){
+   let kilomiter = mile * 1.60934 ;
+   return kilomiter ; 
+}
+
+let ammaask = 10 ; 
+result = miletokilomiter(ammaask);
+console.log( 'kilometer', result);
+
+let abbaask = 30 ;
+console.log(result);
