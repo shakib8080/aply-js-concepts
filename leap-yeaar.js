@@ -17,19 +17,33 @@
 // console.log(result);
 
 
-function isnotleapyear (year){
-    if (year % 4 != 0){
+// function isnotleapyear (year){
+//     if (year % 4 != 0){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }
+
+
+// let myyear = 3930 ;
+// let heryear = 2030 ;
+// myleapyear = isnotleapyear(myyear);
+// console.log(myleapyear);
+// result = isnotleapyear ( heryear);
+// console.log(result);
+
+function isleapyear (year){
+    if(year % 4 == 0){
         return true;
     }
     else{
-        return false;
+        false;
     }
 }
 
-
-let myyear = 3930 ;
-let heryear = 2030 ;
-myleapyear = isnotleapyear(myyear);
-console.log(myleapyear);
-result = isnotleapyear ( heryear);
-console.log(result);
+const myyear = 2024;
+const youryear = 2048;
+const leapyear = isleapyear (myyear);
+console.log(leapyear);

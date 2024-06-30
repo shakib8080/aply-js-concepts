@@ -25,3 +25,17 @@ let hernumber = 88484;
 
   result = iseven(ternumber);
   console.log(result);
+
+
+  function isodd (number){
+   if (number % 2 == 0){
+       return true,'is odd number ';
+   }
+   else{
+       return false ,'is even number ';
+   }
+}
+const mynumber = 24343 ;
+const yournumber = 854949332; 
+const result = isodd (mynumber);
+console.log(result);
