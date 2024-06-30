@@ -43,7 +43,7 @@
 // console.log(result);
 
 function inchestofet (inches){
-    let fet = inches / 12 ;
+    let fet =   inches / 12 ;
     return fet ;
 }
 

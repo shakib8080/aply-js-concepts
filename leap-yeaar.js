@@ -1,33 +1,32 @@
-// function isleapyear (year){
-//     if(year % 4 == 0){
-//     return true;
-//     }
-//     else{
-//      return false;
-//     }
+// // function isleapyear (year){
+// //     if(year % 4 == 0){
+// //     return true;
+// //     }
+// //     else{
+// //      return false;
+// //     }
 
-// }
+// // }
 
 // const myyear = 2033 ;
-// const youryear = 2032; 
-// result = isleapyear(myyear);
-// console.log(result);
+// // const youryear = 2032; 
+// // result = isleapyear(myyear);
+// // console.log(result);
 
-// result = isleapyear(youryear);
-// console.log(result);
-
-
-// function isnotleapyear (year){
-//     if (year % 4 != 0){
-//         return true;
-//     }
-//     else{
-//         return false;
-//     }
-// }
+// // result = isleapyear(youryear);
+// // console.log(result);
 
 
-// let myyear = 3930 ;
+// // function isnotleapyear (year){
+// //     if (year % 4 != 0){
+// //         return true;
+// //     }
+// //     else{
+// //         return false;
+// //     }
+// // }
+
+
 // let heryear = 2030 ;
 // myleapyear = isnotleapyear(myyear);
 // console.log(myleapyear);
